@@ -37,7 +37,7 @@ def get_all_personas():
     return jsonify({"list_people":people})
 '''
 list_people es el titulo que va antes de la lista que se convertira en json esto se utiliza
-para idenfitificar una json si tienes mas de uno en el mismo codigo
+para idenfitificar un json si tienes mas de uno en el mismo codigo
 '''
 
 if __name__ == '__main__':
